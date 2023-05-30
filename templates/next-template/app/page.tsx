@@ -2,6 +2,7 @@ import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
+import { Input } from "@/components/input"
 
 export default function IndexPage() {
   return (
@@ -34,6 +35,7 @@ export default function IndexPage() {
           GitHub
         </Link>
       </div>
+      <Input type="password" placeholder="Password" />
     </section>
   )
 }
